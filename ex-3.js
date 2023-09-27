@@ -13,10 +13,10 @@ const employee = {
   },
 };
 
-console.log("Employee Name: " + employees.name);
-console.log("Employee Age: " + employee.age);
+console.log("'"+"Employee Name: " + employees.name+"'");
+console.log("'"+"Employee Age: " + employee.age+"'");
 console.log(
-  "Employee Address: " +
+  "'"+" Employee Address: " +
     employee.address.street +
     ", " +
     employee.address.city +
@@ -26,4 +26,4 @@ console.log(
     employee.address.country +
     " " +
     employee.adress.postalCode
-);
++"'");
