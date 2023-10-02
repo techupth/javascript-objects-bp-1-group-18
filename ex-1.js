@@ -1,13 +1,14 @@
 // Exercise #1: Food Order
 
-let footOrder = {
-    orderNumber:"A0234",
-    address : "Bangkok",
-    paymentType : "Cash",
-    totalPrice : 4500,
-    restaurantName : "MK",
-};
+const foodOrder = {
+       orderNumber: "A0234",
+       address: "Bangkok",
+       paymentType: "cash",
+       totalPrice: 4500,
+       restaurantName: "MK",
+       };
 
-footOrder.totalPrice = 5000;
-footOrder.paymentType = "Credit Card";
+foodOrder.totalPrice = 5000;
+foodOrder.paymentType = "Credit Card";
 console.log(foodOrder);
+
